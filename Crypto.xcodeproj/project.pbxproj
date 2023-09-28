@@ -20,6 +20,7 @@
 		B913E0E82AB1893E006848F5 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B913E0E72AB1893E006848F5 /* PreviewProvider.swift */; };
 		B92843A32AC20A4900F58A18 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92843A22AC20A4900F58A18 /* HomeViewModel.swift */; };
 		B932CB392AC40CDD00E1375E /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932CB382AC40CDD00E1375E /* CoinDataService.swift */; };
+		B932CB3C2AC5A61D00E1375E /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932CB3B2AC5A61D00E1375E /* NetworkingManager.swift */; };
 		B9F923412AB1D23300694A97 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F923402AB1D23300694A97 /* Double.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		B913E0E72AB1893E006848F5 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		B92843A22AC20A4900F58A18 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B932CB382AC40CDD00E1375E /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		B932CB3B2AC5A61D00E1375E /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		B9F923402AB1D23300694A97 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				B913E0C22AAE2312006848F5 /* CryptoApp.swift */,
+				B932CB3A2AC5A61300E1375E /* Utilities */,
 				B913E0D02AAE2537006848F5 /* Extensions */,
 				B932CB372AC40CB600E1375E /* Services */,
 				B913E0DF2AB01D6D006848F5 /* Models */,
@@ -161,6 +164,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		B932CB3A2AC5A61300E1375E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B932CB3B2AC5A61D00E1375E /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		B9F9233F2AB1A2BB00694A97 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +258,7 @@
 				B913E0DC2AAEDCEE006848F5 /* CircleButtonView.swift in Sources */,
 				B913E0D22AAE254E006848F5 /* Color.swift in Sources */,
 				B913E0DE2AAF141D006848F5 /* CircleButtonAnimationView.swift in Sources */,
+				B932CB3C2AC5A61D00E1375E /* NetworkingManager.swift in Sources */,
 				B92843A32AC20A4900F58A18 /* HomeViewModel.swift in Sources */,
 				B913E0E82AB1893E006848F5 /* PreviewProvider.swift in Sources */,
 				B9F923412AB1D23300694A97 /* Double.swift in Sources */,
