@@ -50,15 +50,15 @@ extension CoinRowView {
             //            Circle()
             //                .frame(width: 30, height: 30)
             
-            CoinImageView(coin: coin)
-                .frame(width: 30, height: 30)
+//            CoinImageView(coin: coin)
+//                .frame(width: 30, height: 30)
             
-//            AsyncImage(url: URL(string: coin.image)) { image in
-//                image.resizable()
-//            } placeholder: {
-//                ProgressView()
-//            }
-//            .frame(width: 30, height: 30)
+            AsyncImage(url: URL(string: coin.image)) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
+            .frame(width: 30, height: 30)
             
             
             

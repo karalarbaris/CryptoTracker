@@ -31,6 +31,9 @@
 		B9F923412AB1D23300694A97 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F923402AB1D23300694A97 /* Double.swift */; };
 		B9F9D1662AEA627B00B14EFA /* MarketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D1652AEA627B00B14EFA /* MarketData.swift */; };
 		B9F9D1682AEA64B000B14EFA /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D1672AEA64B000B14EFA /* MarketDataService.swift */; };
+		B9F9D16A2AF3C44800B14EFA /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D1692AF3C44800B14EFA /* PortfolioView.swift */; };
+		B9F9D16C2AF3CE4400B14EFA /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D16B2AF3CE4400B14EFA /* XMarkButton.swift */; };
+		B9F9D16E2AF43B3800B14EFA /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D16D2AF43B3800B14EFA /* CoinLogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,9 @@
 		B9F923402AB1D23300694A97 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		B9F9D1652AEA627B00B14EFA /* MarketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketData.swift; sourceTree = "<group>"; };
 		B9F9D1672AEA64B000B14EFA /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
+		B9F9D1692AF3C44800B14EFA /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		B9F9D16B2AF3CE4400B14EFA /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
+		B9F9D16D2AF43B3800B14EFA /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,7 @@
 				B913E0D72AAEDA48006848F5 /* HomeView.swift */,
 				B90FF5852AE3A39900A57AF4 /* HomeStatsView.swift */,
 				B913E0E52AB188D4006848F5 /* CoinRowView.swift */,
+				B9F9D1692AF3C44800B14EFA /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 				B913E0DA2AAEDCE2006848F5 /* CircleButton */,
 				B98B1E892AE10BBF00385F74 /* SearchBarView.swift */,
 				B90FF5832AE3A0BB00A57AF4 /* StatisticView.swift */,
+				B9F9D16B2AF3CE4400B14EFA /* XMarkButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				B932CB402AC6A0E100E1375E /* CoinImageView.swift */,
+				B9F9D16D2AF43B3800B14EFA /* CoinLogoView.swift */,
 			);
 			path = CoinImage;
 			sourceTree = "<group>";
@@ -286,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B90FF5822AE39B0300A57AF4 /* Statistic.swift in Sources */,
+				B9F9D16E2AF43B3800B14EFA /* CoinLogoView.swift in Sources */,
 				B932CB432AC6A10700E1375E /* CoinImageViewModel.swift in Sources */,
 				B932CB392AC40CDD00E1375E /* CoinDataService.swift in Sources */,
 				B913E0E62AB188D4006848F5 /* CoinRowView.swift in Sources */,
@@ -296,11 +306,13 @@
 				B932CB412AC6A0E100E1375E /* CoinImageView.swift in Sources */,
 				B913E0DC2AAEDCEE006848F5 /* CircleButtonView.swift in Sources */,
 				B90FF5862AE3A39900A57AF4 /* HomeStatsView.swift in Sources */,
+				B9F9D16C2AF3CE4400B14EFA /* XMarkButton.swift in Sources */,
 				B913E0D22AAE254E006848F5 /* Color.swift in Sources */,
 				B913E0DE2AAF141D006848F5 /* CircleButtonAnimationView.swift in Sources */,
 				B932CB3C2AC5A61D00E1375E /* NetworkingManager.swift in Sources */,
 				B92843A32AC20A4900F58A18 /* HomeViewModel.swift in Sources */,
 				B90FF5842AE3A0BB00A57AF4 /* StatisticView.swift in Sources */,
+				B9F9D16A2AF3C44800B14EFA /* PortfolioView.swift in Sources */,
 				B913E0E82AB1893E006848F5 /* PreviewProvider.swift in Sources */,
 				B9F9D1682AEA64B000B14EFA /* MarketDataService.swift in Sources */,
 				B9F923412AB1D23300694A97 /* Double.swift in Sources */,
