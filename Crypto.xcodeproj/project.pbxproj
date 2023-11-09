@@ -38,6 +38,9 @@
 		B9F9D1732AFA2E0E00B14EFA /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D1722AFA2E0E00B14EFA /* PortfolioDataService.swift */; };
 		B9F9D1782AFBD63800B14EFA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D1772AFBD63800B14EFA /* DetailView.swift */; };
 		B9F9D17A2AFBF09A00B14EFA /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D1792AFBF09A00B14EFA /* NavigationLazyView.swift */; };
+		B9F9D17C2AFCAD8800B14EFA /* CoinDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D17B2AFCAD8800B14EFA /* CoinDetail.swift */; };
+		B9F9D17E2AFCAFCA00B14EFA /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D17D2AFCAFCA00B14EFA /* DetailViewModel.swift */; };
+		B9F9D1802AFCB00A00B14EFA /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9D17F2AFCB00A00B14EFA /* CoinDetailDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +76,9 @@
 		B9F9D1722AFA2E0E00B14EFA /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		B9F9D1772AFBD63800B14EFA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B9F9D1792AFBF09A00B14EFA /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		B9F9D17B2AFCAD8800B14EFA /* CoinDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetail.swift; sourceTree = "<group>"; };
+		B9F9D17D2AFCAFCA00B14EFA /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		B9F9D17F2AFCB00A00B14EFA /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,7 @@
 				B90FF5812AE39B0300A57AF4 /* Statistic.swift */,
 				B9F9D1652AEA627B00B14EFA /* MarketData.swift */,
 				B9F9D16F2AFA2D8000B14EFA /* PortfolioContainer.xcdatamodeld */,
+				B9F9D17B2AFCAD8800B14EFA /* CoinDetail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 				B932CB442AC6A33000E1375E /* CoinImageService.swift */,
 				B9F9D1672AEA64B000B14EFA /* MarketDataService.swift */,
 				B9F9D1722AFA2E0E00B14EFA /* PortfolioDataService.swift */,
+				B9F9D17F2AFCB00A00B14EFA /* CoinDetailDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -248,6 +256,7 @@
 		B9F9D1752AFBD61B00B14EFA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B9F9D17D2AFCAFCA00B14EFA /* DetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -337,6 +346,7 @@
 				B932CB392AC40CDD00E1375E /* CoinDataService.swift in Sources */,
 				B913E0E62AB188D4006848F5 /* CoinRowView.swift in Sources */,
 				B913E0C52AAE2312006848F5 /* ContentView.swift in Sources */,
+				B9F9D17C2AFCAD8800B14EFA /* CoinDetail.swift in Sources */,
 				B9F9D1662AEA627B00B14EFA /* MarketData.swift in Sources */,
 				B913E0D82AAEDA48006848F5 /* HomeView.swift in Sources */,
 				B913E0C32AAE2312006848F5 /* CryptoApp.swift in Sources */,
@@ -345,6 +355,8 @@
 				B90FF5862AE3A39900A57AF4 /* HomeStatsView.swift in Sources */,
 				B9F9D16C2AF3CE4400B14EFA /* XMarkButton.swift in Sources */,
 				B913E0D22AAE254E006848F5 /* Color.swift in Sources */,
+				B9F9D17E2AFCAFCA00B14EFA /* DetailViewModel.swift in Sources */,
+				B9F9D1802AFCB00A00B14EFA /* CoinDetailDataService.swift in Sources */,
 				B913E0DE2AAF141D006848F5 /* CircleButtonAnimationView.swift in Sources */,
 				B932CB3C2AC5A61D00E1375E /* NetworkingManager.swift in Sources */,
 				B92843A32AC20A4900F58A18 /* HomeViewModel.swift in Sources */,

@@ -101,7 +101,6 @@ extension HomeView {
                     CoinRowView(coin: coin, showHoldingsColumn: false)
                         .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
                 }
-
             }
         }
         .listStyle(PlainListStyle())
@@ -110,8 +109,12 @@ extension HomeView {
     private var portfolioCoinsList: some View {
         List {
             ForEach(vm.portfolioCoins) { coin in
-                CoinRowView(coin: coin, showHoldingsColumn: true)
-                    .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
+                NavigationLink {
+                    NavigationLazyView(DetailView(coin: coin))
+                } label: {
+                    CoinRowView(coin: coin, showHoldingsColumn: true)
+                        .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
+                }
             }
         }
         .listStyle(PlainListStyle())
